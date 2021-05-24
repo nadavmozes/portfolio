@@ -1,0 +1,29 @@
+.my-stack {
+    max-width: 825px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    > h2 {
+        font-size: 32px;
+    }
+}
+.stack {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+img {
+    height: 110px;
+}
+
+.technologies {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    > img {
+        width: 60px;
+        height: 60px;
+    }
+}

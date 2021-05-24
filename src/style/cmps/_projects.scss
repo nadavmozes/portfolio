@@ -1,0 +1,15 @@
+.my-projects {
+    > h2 {
+        font-size: 32px;
+    }
+}
+.projects-list > div {
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    img {
+        height: 180px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+}

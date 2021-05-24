@@ -1,0 +1,38 @@
+body {
+}
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    padding: 0 20px;
+    align-items: center;
+    background-color: dimgray;
+    margin-bottom: 10px;
+    > p {
+        width: 100%;
+        background: #f0ffff;
+        padding: 15px;
+        font-family: monospace;
+        font-size: 2rem;
+    }
+}
+
+.logo > p {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: whitesmoke;
+    > span {
+        color: black;
+    }
+}
+
+.app-main {
+    // min-height: 85vh;
+    // background-color: lightskyblue;
+    // padding: 0 20px;
+}
+
+.app-footer {
+    height: 5vh;
+}

@@ -1,0 +1,20 @@
+.hero {
+    background-color: lightblue;
+}
+.head-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.head-info p:first-of-type {
+    display: block;
+    font-size: 2em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.hero > div > div > p {
+    padding: 10px;
+}
